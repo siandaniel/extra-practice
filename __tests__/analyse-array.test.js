@@ -26,6 +26,7 @@ describe ('analyseArray', () => {
         expect(consoleSpy).toHaveBeenCalledWith('LogOf.0: 1');
         expect(consoleSpy).toHaveBeenCalledWith('LogOf.2: 3');
     })
+    // Now need to access nested arrays
     // test('Console log string name, indices and values for nested arrays', () => {
     //     analyseArray("LogOf", [1, 2, 3, [4]]);
     //     expect(consoleSpy).toHaveBeenCalledWith('LogOf.0.0: 4');
